@@ -16,12 +16,9 @@ const HeroSection = () => {
             <div className="md:h-[140px] overflow-hidden inline-block md:text-5xl text-2xl">
               <TypeAnimation
                 sequence={[
-                  // Same substring at the start will only be typed out once, initially
                   "Chinenye",
-                  1200, // wait 1s before replacing "Mice" with "Hamsters"
-                  "a Frontend Web Developer",
-                  1000,
-                  "a Full Stack Web Developer in view",
+                  1200,
+                  "a Full Stack Web Developer",
                   1000,
                   "a Graduate of Electrical Engineering",
                   1000,
@@ -33,10 +30,8 @@ const HeroSection = () => {
             </div>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl max-w-xl mx-auto sm:mx-0">
-            My goal as a front-end developer is to create web applications that are not only visually appealing but also provide a seamless user experience. 
+            As a full-stack developer, my mission is to create web applications that combine beautiful, intuitive interfaces with robust backend functionality. I focus on delivering smooth user experiences, writing clean and maintainable code, and building secure, scalable systems that bring real value to users
           </p>
-
-         
         </div>
 
         {/* Right image */}

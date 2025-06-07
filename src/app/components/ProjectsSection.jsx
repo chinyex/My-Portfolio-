@@ -42,6 +42,15 @@ const projectsData = [
     github: "https://github.com/chinyex/Restaurant-Website",
     liveLink: "https://restaurant-website-co4w.vercel.app/",
   },
+
+  {
+    id:"5",
+    title: "Crypto website",
+    description:"Crypto Connect is a modern full-stack web application built with Next.js 15, featuring both frontend and backend in a single project. It offers secure user authentication using email and password, powered by MongoDB Atlas, JWT, and bcrypt. Users can register, log in, and securely access protected routes. The UI is designed with Tailwind CSS for a clean and responsive experience.",
+    image:"/images/cryptoImage.png",
+    github:"https://github.com/chinyex/cryptoapp",
+    liveLink:"https://cryptoapp-ten-neon.vercel.app/"
+  }
 ];
 
 const ProjectsSection = () => {
